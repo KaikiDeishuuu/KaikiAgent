@@ -1,0 +1,34 @@
+# Git
+.git
+.gitignore
+
+# Build artifacts
+grpc_receiver
+*.db
+*.log
+
+# Data directories
+data/
+logs/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation
+*.md
+docs/
+
+# Scripts (not needed in container)
+*.sh
+
+# Temporary files
+tmp/
+temp/
+

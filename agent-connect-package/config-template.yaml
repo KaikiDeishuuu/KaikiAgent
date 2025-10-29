@@ -1,0 +1,28 @@
+# Nezha Agent 配置文件模板
+# 复制此文件到 /opt/nezha-agent/config.yaml 并修改相应配置
+
+# 主接收器地址
+server: your-agent-server.com:443
+
+# 启用 TLS 加密
+tls: true
+
+# API 密钥
+client_secret: ${AGENT_API_KEY:-your_agent_api_key_here}
+
+# Agent 主机名
+hostname: Agent-{主机名}
+
+# 可选配置
+# 上报间隔（秒）
+# report_interval: 10
+
+# 日志级别
+# log_level: info
+
+# 监控配置
+# monitor:
+#   system: true
+#   network: true
+#   process: true
+#   gpu: false

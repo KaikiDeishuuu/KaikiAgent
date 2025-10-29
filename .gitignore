@@ -1,0 +1,89 @@
+# Agent 项目敏感信息保护
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# 日志文件
+*.log
+logs/
+log/
+
+# 构建文件
+grpc_receiver
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 部署包
+vps-deploy/
+*.tar.gz
+*.zip
+
+# 环境变量文件
+.env
+.env.local
+.env.production
+.env.development
+
+# 配置文件（包含敏感信息）
+config.json
+secrets.json
+credentials.json
+
+# API 密钥和令牌
+api-keys.txt
+tokens.txt
+secrets.txt
+
+# SSL 证书
+*.crt
+*.cert
+*.cer
+*.der
+*.key
+*.pem
+*.p12
+*.pfx
+ssl/
+certs/
+
+# 临时文件
+temp/
+tmp/
+*.tmp
+*.backup
+*-backup
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS 文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker 文件
+docker-compose.override.yml
+.dockerignore.local
+
+# 测试文件
+test-*.jpg
+test-*.png
+test-*.txt
+test-*.html
+
+# 备份文件
+*.bak
+*.old

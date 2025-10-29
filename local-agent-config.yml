@@ -1,0 +1,8 @@
+server: your-agent-server.com:443
+tls: true
+client_secret: YOUR_CLIENT_SECRET_HERE
+uuid: 583ff58a-58f5-4066-a84d-f3394a2d0c67
+debug: true
+insecure_tls: true
+report_delay: 3
+ip_report_period: 1800
